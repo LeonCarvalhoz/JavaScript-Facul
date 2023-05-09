@@ -5,24 +5,24 @@ for (let i = 0; i <= 100; i+=2) {
     
     /////////////////////////////////////////////////////////
     
-    //let array = [2,4,6,8]
+    let array1 = [2,4,6,8]
     
     let soma = 0
     
     for (let i = 0; i < array.length; i++) {
-    soma += array[i]
+    soma += array1[i]
     }
     console.log(soma)
     //////////////////////////////////////////////////////////
-    //let array = [-2,-4,-6,-8,2,4,6,8];
+    let array2 = [-2,-4,-6,-8,2,4,6,8];
     
     for (let i = array.length - 1; i >= 0; i--) {
-      if (array[i] < 0) {
-        array.splice(i, 1);
+      if (array2[i] < 0) {
+        array2.splice(i, 1);
       }
     }
     
-    console.log(array);
+    console.log(array2);
     /////////////////////////////////////////////////////////
     let array = [2,4,6,8];
     
